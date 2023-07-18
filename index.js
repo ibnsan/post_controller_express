@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 import router from "./router.js";
 import fileUpload from 'express-fileupload';
 import dotenv from 'dotenv';
-import * as path from "path";
 dotenv.config()
 
 const PORT = process.env.PORT ?? 5000;
